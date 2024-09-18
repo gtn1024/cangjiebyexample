@@ -10,6 +10,8 @@ export default hopeTheme({
 
   docsDir: "src",
 
+  pure: true,
+
   locales: {
     "/": {
       // navbar
