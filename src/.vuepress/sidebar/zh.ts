@@ -6,6 +6,13 @@ export const zhSidebar = sidebar({
     {
       text: "1. Hello World",
       link: "hello.md",
+      collapsible: true,
+      children: [
+        {
+          text: "1.1. 注释",
+          link: "comment.md"
+        }
+      ]
     },
   ],
 });

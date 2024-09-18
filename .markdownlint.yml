@@ -1,3 +1,4 @@
 default: true
 
+MD013: false # Line length
 MD014: false # Dollar signs used before commands without showing output
