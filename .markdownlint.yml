@@ -1,0 +1,3 @@
+default: true
+
+MD014: false # Dollar signs used before commands without showing output

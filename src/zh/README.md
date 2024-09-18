@@ -13,4 +13,10 @@ title: 简介
 
 Cangjie by Example（CBE）是一个包含可运行事例的集合，旨在说明各种仓颉语言的概念和标准库。为了充分利用这些事例，不要忘记在本地安装仓颉语言，并且查看 [仓颉官方文档](https://developer.huawei.com/consumer/cn/doc/cangjie-guides-V5/cj-wp-abstract-V5)。
 
+本文档基于仓颉 0.55.3 版本。
+
 本项目受到 [Rust by Example](https://doc.rust-lang.org/rust-by-example/) 和 [Go by Example](https://gobyexample.com) 的启发。
+
+让我们现在开始！
+
+- [Hello World](./hello.md)
