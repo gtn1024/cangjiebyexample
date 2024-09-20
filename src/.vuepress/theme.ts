@@ -7,6 +7,7 @@ export default hopeTheme({
   hostname: "https://cangjiebyexample.com",
 
   repo: "gtn1024/cangjiebyexample",
+  docsBranch: "master",
 
   docsDir: "src",
 
