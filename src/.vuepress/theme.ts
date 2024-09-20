@@ -13,6 +13,8 @@ export default hopeTheme({
 
   pure: true,
 
+  pageInfo: false,
+
   locales: {
     "/": {
       // navbar
