@@ -20,3 +20,4 @@ Cangjie by Example（CBE）是一个包含可运行事例的集合，旨在说�
 让我们现在开始！
 
 - [Hello World](./hello.md)
+- [常用类库](./lib/README.md)

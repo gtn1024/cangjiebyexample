@@ -14,5 +14,13 @@ export const zhSidebar = sidebar({
         }
       ]
     },
+    {
+      text: "常用类库",
+      link: "lib/README.md",
+      collapsible: true,
+      children: [
+        "lib/cjdotenv.md"
+      ]
+    },
   ],
 });
