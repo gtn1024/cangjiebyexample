@@ -1,3 +1,5 @@
+@import 'palette.scss';
+
 // place your custom styles here
 .vp-navbar {
     box-shadow: none;
@@ -7,4 +9,26 @@
 .vp-sidebar {
     box-shadow: none;
     border-right: 1px solid #eaecef;
+}
+
+span.vp-sidebar-title {
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2px solid #eaecef;
+}
+
+.vp-sidebar-header.clickable:hover {
+    background: unset;
+    color: $theme-color;
+}
+
+.vp-sidebar-link {
+    &.active {
+        background: unset;
+    }
+
+    &:hover {
+        background: unset;
+        color: $theme-color;
+    }
 }
