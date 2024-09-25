@@ -13,7 +13,7 @@ export default defineUserConfig({
     },
     "/zh/": {
       lang: "zh-CN",
-      title: "Cangjie by Example",
+      title: "例学仓颉",
       description: "通过例子学习仓颉编程语言",
     },
   },
