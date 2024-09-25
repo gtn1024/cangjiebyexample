@@ -18,3 +18,7 @@ Cangjie by Example（CBE）是一个包含可运行事例的集合，旨在说�
 本项目受到 [Rust by Example](https://doc.rust-lang.org/rust-by-example/) 和 [Go by Example](https://gobyexample.com) 的启发。
 
 让我们现在开始吧！
+
+**欢迎加入本站 QQ 群：**
+
+![QQ 群](./README/qqgroup.jpg)
