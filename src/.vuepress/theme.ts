@@ -3,6 +3,8 @@ import { hopeTheme } from "vuepress-theme-hope";
 import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
+import cjGrammar from './Cangjie.tmLanguage.json'
+
 export default hopeTheme({
   hostname: "https://cangjiebyexample.com",
 
@@ -59,6 +61,18 @@ export default hopeTheme({
     mdEnhance: {
       hint: true,
     },
+    shiki: {
+      langs: [
+        // https://raw.githubusercontent.com/Zxilly/playground-cj/6c36b9ba49069fe03f9ba25b81bd43bb4ab0e4e1/src/lib/Cangjie.tmLanguage.json
+        cjGrammar as any,
+        'shell',
+        'powershell',
+        'toml',
+      ],
+      langAlias: {
+        'cj': 'cangjie',
+      },
+    }
   },
 
   prevLink: false,
