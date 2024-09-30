@@ -60,4 +60,7 @@ export default hopeTheme({
       hint: true,
     },
   },
+
+  prevLink: false,
+  nextLink: false,
 });
